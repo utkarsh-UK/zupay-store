@@ -1,0 +1,57 @@
+name: zupay_store
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #core
+  provider: ^6.0.2
+  get_it: ^7.2.0
+  http: ^0.13.4
+  equatable: ^2.0.3
+  dartz: ^0.10.1
+
+  #ui
+  font_awesome_flutter: ^10.1.0
+  fluttertoast: ^8.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 800
